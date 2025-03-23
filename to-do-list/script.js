@@ -1,5 +1,4 @@
 const inputBox = document.querySelector('#input-box');
-// const addBtn = document.querySelector('.add-btn');
 const list = document.querySelector('#list-container');
 
 function addTask(){
