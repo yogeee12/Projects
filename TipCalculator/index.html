@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-box">
+            <h2>Tip Calculator</h2>
+            <p class="p-text">Enter the bill amount and tip percentage to calculate the total.</p>
+            <form class="input-box">
+                <label for="bill">Bill amount :</label>
+                <input type="number" name="bill" id="billAmount">
+                <label for="tip">Tip percentage :</label>
+                <input type="number" name="tip" id="tipAmount">
+            </form>
+            <button onclick="totalTip()">CALCULATE</button>
+            <p class="total">Total : </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
