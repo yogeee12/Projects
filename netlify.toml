@@ -1,0 +1,4 @@
+[build]
+base = "tic_tac_toe"
+publish = "tic_tac_toe"
+command = ""
